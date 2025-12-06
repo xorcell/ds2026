@@ -70,4 +70,10 @@ Error code 200 for success and 404 for non-existant data are taken from the HTTP
   #raw(read("client.c"), lang:"c", block: true)
 ]
 
+#import "@preview/cmarker:0.1.7": render
+
+#let tuto = read("TUTO.md")
+
+#render(tuto)
+
 
